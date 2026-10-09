@@ -70,8 +70,8 @@ Production & development environment setup, maintenance
 
 ** Getting Started
 TODO
-- Windows: [[file:doc/System setup/ROS2_with_WSL.md]]
-- Linux: [[file:doc/System setup/Nix.md]] or [[file:doc/System setup/Ubuntu.md]]
+- Windows: [[file:doc/System setup/ROS2_with_WSL.md][ROS2 with WSL]]
+- Linux: [[file:doc/System setup/Nix.md][Ubuntu]] or [[file:doc/System setup/Ubuntu.md][Ubuntu]]
 - Mac: Docker
 
 ** Run
