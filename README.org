@@ -1,0 +1,78 @@
+* SeaHawk 2
+Cabrillo's code for the MATE ROV Competition
+
+** SeaHawk II
+SeaHawk II is a project designed by a team of community college students from
+[[https://www.cabrillo.edu][Cabrillo College]] based in Aptos, California.
+SeaHawk II continues the [[https://cabrillorobotics.org][Cabrillo Robotics]]
+legacy, initially designed by the team to compete in the 2024
+[[https://materovcompetition.org/world-championship][MATE]] International
+Competition at the highest class of the competition: Explorer. Following a
+first-place victory, the club took a break from MATE to focus on other
+activities. The team is now using the robot to compete again in 2027.
+
+*** MATE
+[[https://materovcompetition.org][MATE]] challenges teams worldwide to build a
+Remotely Operated Vehicle (ROV) that can complete simulated real-world tasks
+underwater. Teams also demonstrate their robot's functionality and design
+rationale through marketing, documentation, a presentation, and more.
+
+Previously, Cabrillo Robotics has competed in the Pioneer division of the
+competition and took home first place two consecutive years. In 2024, the team
+competed in the 4-year university "Explorer" division and won first place again.
+
+Now, the team, comprised almost entirely of new members, is using the work of
+their alumni as a base from which they can design an even better robot for the
+2027 MATE Competition in the Explorer class.
+
+*** ROS2
+Much like its predecessors, [[https://github.com/CabrilloRoboticsClub/cabrillo_rov_2023][SeaHawk]]
+and [[https://github.com/CabrilloRoboticsClub/cabrillo_rov_2022][Hydrozoa]],
+SeaHawk II uses the Robot Operating System (ROS). Specifically, SeaHawk uses
+[[https://docs.ros.org/en/lyrical/][ROS2]] Lyrical for its modularity and
+features useful in developing software specifically for robotics. 
+
+*** Software goals
+Cabrillo Robotics has great ambitions, improvements, and enhancements for
+software. The goals for the software are to make it user-friendly, easily
+configurable, and reliable. For ease of use, the software will be have rapid
+setup on factory hardware, an automatic setup, and safe shutdown. The software
+should allow the robot to preform photogrammetry (3d model with accurate units),
+hold its position in the water, and automatically correct for any external
+forces such as drag and disruptive thrust which cause the robot to drift off
+course. 
+
+*** The team
+| Member         | Github                                     | Major            |
+|----------------+--------------------------------------------+------------------|
+| Diana Ellefson | [[https://github.com/OrionOth][@OrionOth]] | Computer Science |
+| Rowan Delander | [[https://github.com/Rowan-D][@Rowan-D]]   | Computer Science |
+
+
+*** Sub-teams
+*⭐️ Lead Software Engineer*: Diana Ellefson
+
+The Cabrillo Robotics software team is divided into sub-teams:  
+| Sub-team                 | Members        |
+|--------------------------+----------------|
+| *UX/input*               |                |
+| *Hardware integration*   | Diana Ellefson |
+| *Control systems*        | Daniel Alivov  |
+| *Management*             | Diana Ellefson |
+| *Infrastructure*         | Diana Ellefson |
+| *Computer vision and AI* | Rowan Delander |
+
+*** Setup
+[[https://github.com/CabrilloRoboticsClub/setup][Setup]]
+Production & development environment setup, maintenance
+
+-----
+
+** Getting Started
+TODO
+- Windows: [[file:doc/System setup/ROS2_with_WSL.md]]
+- Linux: [[file:doc/System setup/Nix.md]] or [[file:doc/System setup/Ubuntu.md]]
+- Mac: Docker
+
+** Run
+FIXME
